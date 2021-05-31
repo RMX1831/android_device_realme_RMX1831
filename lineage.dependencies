@@ -7,14 +7,20 @@
   },
   {
     "remote"     : "github",
-    "repository" : "RMX1831/android_kernel_realme_RMX1831",
+    "repository" : "stormbreaker-project/kernel_realme_RMX1831",
     "target_path": "kernel/realme/mt6771"
-    "branch"     : "alps"
+    "branch"     : "alps-rebase"
   },
   {
     "remote"     : "github",
-    "repository" : "RMX1831/android_vendor_realme_RMX1831",
+    "repository" : "SparXFusion/android_vendor_realme_RMX1831",
     "target_path": "vendor/realme/RMX1831"
     "branch"     : "lineage-18.0-ims"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "CPH1859/prebuilt_clang-6.0.2",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r316199",
+    "branch"     : "6.0.2"
   }
 ]
